@@ -5,31 +5,33 @@
     margin: 0;
 }
 
-section {
-    display: flex;
-    flex-direction: row;
+body {
+    height: 100vh;
 }
+
 .style {
     width: 350px;
     height: 90vh;
     border-radius: 0 0 30% 30%;
     transform: translateX(-30px);
     background-image:linear-gradient(to top, hsl(264, 100%, 61%) , hsl(293, 100%, 63%));
-     /* hsl(293, 100%, 63%)
- hsl(264, 100%, 61%) */
+    position: relative;
+  
 }
 
-.phone {
+.container {
     margin-top: 100px;
-    width: 300px;
-    min-width: 300px;
+    max-width: 300px;
     border:10px solid white;
     transform: translate(-100px ,0);
     border-radius: 30px;
     overflow: hidden;
     position: relative;
     max-height: 70vh;
+    top: -781px;
+    left: 331px;
 }
+
 
 @media (max-width:767px){
     .phone {
@@ -202,5 +204,8 @@ form i{
     right: 15px;
     top: 15px;
 }
+
+
+
 
 
